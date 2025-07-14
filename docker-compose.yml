@@ -16,7 +16,7 @@ services:
       - PGDATABASE=offboarding_db
 
   employee-offboarding:
-    container_name: offboarding-employee12
+    container_name: offboarding-employee123
     build: ./Employee-offboardinh
     ports:
       - "8013:80"
